@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+    height:100%;
+    margin-top: 130px;
+  }
+
+  section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  h3{
+    text-align: center;
+    
+  }
+
+  /*Estilos de la tabla*/
+  table{
+    border-collapse: collapse; /*Quitar el doble borde por defecto*/
+    width: 60%; /*largo de la tabla*/
+    margin: 0 auto; /*Centrar tabla*/
+    
+  }
+
+  table thead{
+    background-color: #7F33FF;
+    color: white;
+   border: 1px solid #7F33FF; /*Se pone el color del borde(las rallas divisoras)*/
+   text-align: center;
+    
+  }
+
+  table tbody{
+    background-color: #e5d6fc;
+    border: 1px solid #7F33FF; /*Se pone el color del borde(las rallas divisoras)*/
+    text-align: center; /*Alinear texto*/
+  }
+
+  table tfoot{
+
+    background-color:#bb99f5;
+    border: 1px solid #7F33FF; /*Se pone el color del borde(las rallas divisoras)*/
+    text-align: center;
+
+  }
+
+ 
+  td, th{
+    padding: 10px; /*Espaciado del contenido de las celdas*/
+  }
+
+  table tbody tr:hover{ /*Hover de las filas del body*/
+    background-color: #B1E1FF;
+    transition: .5s;
+    color: #7F33FF;
+    font-weight: 580;
+    
+
+  }
+
+  table tfoot tr{
+    color: rgb(224, 46, 224);
+    font-weight: 1000;
+    
+  }
+
+  .sectionbtn{
+    top: 0;
+    height: 140px;
+    width: 500px;
+    margin: 0 auto ;
+    align-items: center;
+  
+  }
+
+  .btn-menu-empleado{
+    font-size: 13px;
+    padding: 14px 40px;
+    background-color:#A149FA;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0 auto;
+    transition-duration: .5s;
+    border: 1.5px solid #A149FA;
+ 
+    justify-content: space-between;
+    
+
+
+  }
+
+

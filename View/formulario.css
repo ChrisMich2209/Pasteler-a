@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+  font-family: sans-serif;
+  margin:0;
+  height:100%;
+  margin-top: 130px;
+  }
+
+  section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  h1{
+    text-align: center;
+    color: #560ed4 ;
+
+  }
+
+  h3{
+    text-align: center;
+    color: #7F33FF ;
+
+    
+  }
+
+  h2{
+    text-align: center;
+    color: #7F33FF ;
+  }
+  
+
+  form{
+    border: #560ed4;
+  }
+
+
+  /*Atributos de la seccion de las cartas de productos*/
+  .container{
+    align-items: center;
+    justify-content: center; /*Centrar y espaciar*/
+    display: flex; /*Se alinea horizontalmente y tiene justifi en start*/
+    flex-wrap: wrap; /*Al momento de hacer pequeña la pantalla se ajusta*/
+   
+    
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400);
+form{
+  padding: 30px ;
+  max-width: 500px;
+  background-color: #e5e2e2;
+  border: 2px #7F33FF;
+  margin: 0 auto;
+}
+
+form input, form textarea{
+  margin-bottom: 7px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 4px;
+  box-sizing: border-box; 
+  border: none; 
+  color: #19222c; 
+  font-size: 1em;
+  resize: none; 
+}
+
+form button {
+	display: block;
+	background-color: #560ed4;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 40px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+textarea {  resize: none;}

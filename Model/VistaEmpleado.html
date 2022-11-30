@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../View/VistaEmpleado.css">
+    <link rel="stylesheet" href="../View/header_style.css">
+    <link rel="stylesheet" href="../View/footer.css">
+    <title>Empleado</title>
+</head>
+
+<header class="header">
+    <nav class="nav">
+      <img src="../View/imagenes/Logo Blanco.jpg" class="logo"></a>
+      <ul class="nav-menu">
+        <li class="nav-menu-item"><a href="../Index.html" class="nav-menu-link nav-link ">Inicio</a></li>
+        <li class="nav-menu-item"><a href="../Model/VistaCliente.html" class="nav-menu-link nav-link">Cliente</a></li>
+        <li class="nav-menu-item"><a href="../Model/VistaEmpleado.html" class="nav-menu-link nav-link nav-menu-link_active">Empleado</a></li>
+      </ul>
+    </nav>
+</header>
+
+<body>
+  <h1>Hola de nuevo Christian</h1>
+  <br>
+
+  
+
+  <section>
+
+    
+    <table border><!--Crea la estructura de la tabla y border es para darle los bordes de las líneas-->
+      <thead> <!--Se indica que se esta creando el encabezado de la tabla-->
+        <tr><!--Inidica que se creara una fila-->
+          <th>No.Pedido</th><!--Inidica las celdas en negrita-->
+          <th>Fecha entrega</th>
+          <th>Nombre Cliente</th>
+          <th>Teléfono</th>
+          <th>Estatus</th>
+          <th>Pago</th>
+          <th>Pedido</th>
+        </tr>
+      </thead>
+      <!--Ahora se manipula el cuerpo de la tabla, o bien los datos reales despues del encabezado-->
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>04-11-2022</td>
+          <td>LaunchX</td>
+          <td>3367896543</td>
+          <td>Pendiente</td>
+          <td>Pagado</td>
+          <td><button>Ver</button></td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>05-11-2022</td>
+          <td>Linda</td>
+          <td>3325437809</td>
+          <td>Pendiente</td>
+          <td>Anticipo</td>
+          <td><button>Ver</button></td>
+        </tr>
+      </tbody>
+      <tfoot><!--Se crea un footer para la tabla-->
+        <tr>
+          <td colspan="7">Total de pedidos pendientes: 2</td> <!--coldspan es para combinar las filas y hacer una sola-->
+        </tr>
+
+      </tfoot>
+      
+    </table>
+  </section>
+<section class="sectionbtn">
+    
+      <button class="btn-menu-empleado" id="1">Inventario Insumos</button>
+      <button class="btn-menu-empleado" id="2">Inventario Adornos</button>
+    
+
+  </section>
+  
+</body>
+
+<!--Footer-->
+<footer class="foot">
+
+  <div class="footer-container">
+      <div class="footer-content-container">
+          <h3 class="website-logo">ChriLin Pastelería</h3>
+          <span class="footer-info">Tel: 33-12-34-54-67</span>
+          <span class="footer-info">chrilinrepo@gmail.com</span>
+      </div>
+
+      <div class="footer-menus">
+          <div class="footer-content-container">
+              <span class="menu-title">Nuestros horarios</span>
+              <span class="footer-info">Lunes a viernes de 08:00-18:00 hrs.</span>
+              <span class="footer-info">Sabado y domingo de 09:00-16:00 hrs.</span> 
+          </div>
+
+          <div class="footer-content-container">
+              <span class="menu-title">Sucursales</span>
+              <span class="footer-info">Av.Terranova #334, Arcos zapopan.</span>
+              <span class="footer-info">Calle Uvas #37, El fresno.</span>
+          </div>
+      </div>
+
+      <div class="footer-content-container">
+          <span class="menu-title">Noticias</span>
+          <span class="footer-info">Proximos eventos.</span>
+          <span class="footer-info">Ofertas y promociones.</span>
+          <span class="footer-info">Cotiza tu evento.</span>
+      </div>
+  </div>
+  
+  <div class="copyright-container">
+      <span class="copyright">Copyright 2022, ChristianAlvarez. All rights reserved.</span>
+  </div>
+
+</footer>
+
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../View/formulario.css">
+    <title>Pedido</title>
+</head>
+<body>
+<section class="cont">
+<section class="container">
+    <form >
+
+        <h2>ChriLin Pastelería</h2>
+        <br>
+        <h3>Elija el tamaño del pastel</h3>
+        <br>
+        <input type="radio" id="individual" name="tamaño" value="individual">
+      <label for="individual">Individual</label>
+      <input type="radio" id="mediano" name="tamaño" value="mediano">
+      <label for="mediano">Mediano</label>
+      <input type="radio" id="grande" name="tamaño" value="grande">
+      <label for="grande">Grande</label>
+        <br>
+        <h3>Elija el sabor del pan</h3>
+        <br>
+        <input type="radio" id="vainilla" name="sabor_pan" value="vainilla">
+      <label for="vainilla">Vainilla</label>
+      <input type="radio" id="chocolate" name="sabor_pan" value="chocolate">
+      <label for="chocolate">Chocolate</label>
+      <input type="radio" id="red" name="sabor_pan" value="red">
+      <label for="red">Red velvet</label>
+        <br>
+
+
+        <h3>Elija el relleno del pastel</h3>
+        <input type="checkbox" id="fresa" name="fresa" value="fresa">
+        <label for="fresa">Fresas</label><br>
+        <input type="checkbox" id="durazno" name="durazno" value="durazno">
+        <label for="durazno">Durazno</label><br>
+        <input type="checkbox" id="Kiwi" name="Kiwi" value="Kiwi">
+        <label for="Kiwi">Kiwi</label><br>
+        <input type="checkbox" id="cajeta" name="cajeta" value="cajeta">
+        <label for="cajeta">Cajeta</label><br>
+        <input type="checkbox" id="mermeladafresa" name="mermeladafresa" value="mermeladafresa">
+        <label for="mermeladafresa">Mermelada de fresa</label><br>
+        <input type="checkbox" id="cremabatida" name="cremabatida" value="cremabatida">
+        <label for="cremabatida">Crema pastelera</label><br>
+
+
+        <br>
+        
+
+
+<h3>¿Algún adorno para su ocasión especial?</h3>
+<br>
+<br>
+
+<center><label for="letras">Letras de Felíz cumpleaños</label><br>
+<input type="checkbox" id="letras" name="letras" value="letras">
+<label>¿Cuantas?</label>
+<input type="number" id="letrasnumber" name="letrasnumber" value="letrasnumber"><br>
+<br>
+<label for="vela">Vela volcan para pastel</label><br>
+<input type="checkbox" id="vela" name="vela" value="vela">
+<label>¿Cuantas?</label>
+<input type="number" id="velanumber" name="velanumber" value="velanumber"><br>
+<br>
+<label for="novios">Figura novios</label><br>
+<input type="checkbox" id="novios" name="novios" value="novios">
+<label>¿Cuantas?</label>
+<input type="number" id="noviosnumber" name="noviosnumber" value="noviosnumber"><br>
+<br>
+<label for="estrellas">Estrellas decorativas</label><br>
+<input type="checkbox" id="estrellas" name="estrellas" value="estrellas">
+<label>¿Cuantas?</label>
+<input type="number" id="estrellasnumber" name="estrellasnumber" value="estrellasnumber"><br>
+
+
+
+<br>
+<h3>Datos de envío</h3>
+
+<label>Nombre</label>
+<input type="text" id="NombreCliente" name="NombreCliente" placeholder="¿Quién recibe?"><br>
+
+<label>Dirección</label>
+<input type="text" id="DireccionCliente" name="DireccionCliente" placeholder="Domicilio de entrega"><br>
+
+<label>Teléfono</label>
+<input type="text" id="TelefonoCliente" name="TelefonoCliente" placeholder="Teléfono contacto"><br>
+
+<label>Correo electrónico</label>
+<input type="email" id="emailcliente" name="emailcliente" placeholder="Correo contacto"><br>
+<br>
+
+
+<button type="submit">Enviar pedido</button>
+<button type="reset">Eliminar pedido</button>
+</center>
+</form>
+    
+
+</section>
+</section>
+</body>
+</html>

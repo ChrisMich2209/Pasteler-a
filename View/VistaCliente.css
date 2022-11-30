@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+  font-family: sans-serif;
+  margin:0;
+  height:100%;
+  margin-top: 130px;
+  }
+
+  section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  h3{
+    text-align: center;
+    
+  }
+
+
+  /*Atributos de la seccion de las cartas de productos*/
+  .container{
+    align-items: center;
+    justify-content: center; /*Centrar y espaciar*/
+    display: flex; /*Se alinea horizontalmente y tiene justifi en start*/
+    flex-wrap: wrap; /*Al momento de hacer pequeña la pantalla se ajusta*/
+    max-width: 100%;
+    
+  }
+
+
+/*Atributos de las cartas de productos*/
+  .card_products {
+    align-items: center;
+    box-shadow: 0 2px 4px 0 #7F33FF; /*Sombreado*/
+    border-radius: 5px;
+    padding: 32px 32px;
+ /*Alineacion y justificacion del contenido entre la imagen y la descripción*/   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+  }
+  
+  /* color al pasar puntero por encima */
+  .card_products:hover {
+    box-shadow: 0 7px 20px  violet;
+  }
+  
+  /* atributos imagenes cards.*/
+  .img-cake {
+    
+    height: 107px;
+    border-radius: 9px 9px;
+  }
+
+  /*Descripcion de la card*/
+  .description {
+    padding: 2px 16px;
+  }
+
+
+  .btn-cliente{
+    font-size: 20px;
+    padding: 14px 40px;
+    background-color:#A149FA;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0 auto;
+    transition-duration: .5s;
+    /*Centrarb boton*/
+    display:flex; 
+    justify-content: flex-end; 
+    border: 1.5px solid #A149FA;
+
+  }
+
+  .btn-cliente:hover{
+    background-color: white;
+    color:#A149FA;
+    
+  }
+
+
+  
